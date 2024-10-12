@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenz - Produits marocains</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Kenz</h1>
+            <ul>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#recettes">Recettes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Découvrez la richesse de la cuisine marocaine</h2>
+        <p>Explorez notre sélection de produits de qualité</p>
+        <button>Voir les produits</button>
+    </section>
+
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit">
+            <img src="couscous.jpg" alt="Couscous">
+            <h3>Couscous</h3>
+            <p>Le meilleur couscous avec du blé sélectionné.</p>
+        </div>
+        <div class="produit">
+            <img src="farine.jpg" alt="Farine">
+            <h3>Farine</h3>
+            <p>Farine bio certifiée pour vos meilleures pâtisseries.</p>
+        </div>
+    </section>
+
+    <section id="recettes">
+        <h2>Recettes marocaines</h2>
+        <article>
+            <h3>Recette Couscous Royal</h3>
+            <p>Découvrez comment préparer un délicieux couscous royal avec nos produits.</p>
+        </article>
+    </section>
+
+    <footer id="contact">
+        <p>Contactez-nous à <a href="mailto:info@kenz.ma">info@kenz.ma</a></p>
+    </footer>
+</body>
+</html>
